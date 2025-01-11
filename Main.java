@@ -7,6 +7,7 @@ public class Main {
         System.out.println("Subtraction: " + subtract(a, b));
         System.out.println("Multiplication: " + multiply(a, b));
         System.out.println("Division: " + divide(a, b));
+        System.out.println("Modulus: " + modulus(a, b));
     }
 
     public static int add(int a, int b) {
@@ -29,4 +30,9 @@ public class Main {
             return 0;
         }
     }
+
+    public static int modulus(int a, int b) {
+        return a % b;
+    }
+
 }
